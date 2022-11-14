@@ -9,7 +9,7 @@
 ## Model: Labler -- Generator -- Selector -- Filter
 1. Train the model with clustering agglomerative method from sklearn library.
     <p align="center">
-    <img src="fig/Agglomeriative clustering.png" alt="drawing" width="400"/>
+    <img src="fig/Agglomeriative clustering.jpg" alt="clustering" width="400"/>
 2. Label data with two clusters according the silhouette score, and clustering visuliation results. Later these two labels will be used for logistic regression test.
 3. Generate data with normal distributed model
 `x = np.arange(start,end)`
@@ -25,7 +25,7 @@
 5. In the final selection, another filter is added. By analyzing previous data, frequncy and range of the numbers were generated. The filter range is then used to generate numbers. `[12, 24, 37,47,	70]`
     * Specifically, the range is created by time-series data analysis. With rolling of 4 data, clear pattern could be extracted from the data.
     <p align="center">
-    <img src="fig/rolling.png" alt="drawing" width="400"/>
+    <img src="fig/rolling.png" alt="rolling" width="400"/>
     
 
 ## App
